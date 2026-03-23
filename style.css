@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+main {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #ffffff;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+label,
+input,
+select,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    padding: 10px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.prioridade {
+    color: red;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background: #222;
+    color: #fff;
+}
